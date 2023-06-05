@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css?family=Iceberg&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(rgba(255,214,0,1), rgba(0,56,255,1));
+        opacity: 1;
+        position: absolute;
+        overflow: hidden;
+        border: none;
+        margin: 0 0 0 0;
+      
+  }
+ #background2 {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255,214,0,1), rgba(0,56,255,1));
+    opacity: 1;
+    position: absolute;
+    overflow: hidden;
+    border: none;
+    margin: 0 0 0 0;
+  }
+  .quadro {
+    width: 480px;
+    height: 570px;
+    background: rgba(94,110,192,1);
+    opacity: 1;
+    position: relative;
+    top: 100px;
+    left: 500px;
+    border-top-left-radius: 55px;
+    border-top-right-radius: 55px;
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius: 55px;
+    overflow: hidden;
+  }
+  .rastreio {
+    width: 500px;
+    color: rgba(255,244,0,1);
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    font-family: Iceberg;
+    font-weight: Regular;
+    font-size: 36px;
+    opacity: 1;
+    text-align: center;
+  }
+  .codigo {
+    width: 400px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    font-family: Iceberg;
+    font-weight: Regular;
+    font-size: 36px;
+    opacity: 1;
+    text-align: center;
+    background-color: rgba(94,110,192,1);
+    border: none;
+  }
+  .pedido {
+    width: 400px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 150px;
+    left: 45px;
+    font-family: Iceberg;
+    font-weight: Regular;
+    font-size: 32px;
+    opacity: 1;
+    text-align: left;
+    background-color: rgba(94,110,192,1);
+    border: none;
+  }
+  .data {
+    width: 450px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    font-family: Iceberg;
+    font-weight: Regular;
+    font-size: 32px;
+    opacity: 1;
+    text-align: center;
+  }
+  .status {
+    width: 400px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 350px;
+    left: -40px;
+    font-family: Iceberg;
+    font-weight: Regular;
+    font-size: 36px;
+    opacity: 1;
+    text-align: center;
+  }
+  .botao{
+    background-color: rgba(94,110,192,1);
+    border: none;
+    color: rgba(255,214,0,1);
+    font-size: 32px;
+    font-family: Iceberg;
+  }
